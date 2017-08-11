@@ -1,0 +1,138 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Top 3 facts</title>
+    <link rel="icon" type="image/png" href="bilder/google.png">
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body id="top3yt">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }    
+        #box11{
+            height: 100vh;
+            width: 100%;
+            background-image: url(bilder/pewdiepie.jpg.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+
+
+        #box22 {
+            height: 100vh;
+            width: 100%;
+            background-image: url(bilder/holasoy.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+
+        #box33 {
+            height: 100vh;
+            width: 100%;
+            background-image: url(bilder/jbb.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+        
+
+
+
+        #parallaxx {
+            font-family: arial black;
+            font-size: 50px;
+            color:white;
+            margin: 0px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+
+
+    </style>
+
+    <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+    <nav class="nav navbar-inverse navbar-fixed-top">
+        <div class="container">
+
+        </div>
+        <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home " aria-hidden="true"></span></a>
+        <ul class="nav navbar-nav">
+            <li><a href="menyval1.html">Top 3 youtubers</a></li>
+            <li><a href="menyval2.html">Top 3 funfacts</a></li>
+            <li><a href="menyval3.html">Top 3 spel</a></li>
+
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+
+
+<div class="parallax"></div>
+
+
+<div id="parallax">
+ <div id="box11">
+
+    <h2 id="parallaxx">Pewdiepie är en svensk youtuber som främst spelar spel och vloggar. Han är den youtube-kanalen som har mest prenumeranter. Just nu har PewDiePie 56,794,535 prenumeranter</h2>
+</div>
+<div class="scroll-box">
+    <p id="parall">Visste du att? YouTube lanserades i maj 2005, men det första verkliga videoklippet på youtube kom 2008 av en som jobbade på YouTube.</p>
+</div>
+<div id="box22">
+    <h1 id="parallaxx">HolaSoyGerman är en spanktalande youtuber och, precis som PewDiePie spelar spel och vloggar. Han är den youtuber-kanalen som har näst mest prenumeranter.HolaSoyGerman har 32,184,273 prenumeranter</h1>
+</div>
+<div class="scroll-box">
+    <p id="parall">Om du vill veta mer om PewDiePie, HolaSoyGerman och Justin Bieber klicka <a href="https://socialblade.com/">här.</a></p>
+</div>
+<div id="box33">
+    <h1 id="parallaxx">Justin Bieber är en utav världens populäraste pop sångare. Han har en youtube kanal där han släpper musikvideos till kanalen. Kanalen är den 3 största kanalen i hela världen. Justin bieber har 30,763,554 prenumeranter<h1>
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

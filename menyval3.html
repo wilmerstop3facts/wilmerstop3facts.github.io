@@ -1,0 +1,127 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Top 3 facts</title>
+    <link rel="icon" type="image/png" href="bilder/google.png">
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+        <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }    
+        #box1111{
+            height: 100vh;
+            width: 100%;
+            background-image: url(bilder/puubg.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+
+
+        #box2222 {
+            height: 100vh;
+            width: 100%;
+            background-image: url(bilder/bt1.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+
+        #box3333 {
+            height: 100vh;
+            width: 100%;
+            background-image: url(bilder/csgo.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+
+         #parallaxxxx {
+            font-family: arial black;
+            font-size: 50px;
+            color:white;
+            margin: 0px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        </style>
+
+<!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-fixed-top">
+        <div class="container">
+
+        </div>
+        <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+        <ul class="nav navbar-nav">
+            <li><a href="menyval1.html">Top 3 youtubers</a></li>
+            <li><a href="menyval2.html">Top 3 funfacts</a></li>
+            <li><a href="menyval3.html">Top 3 spel</a></li>
+
+        </ul>
+    </div>
+</nav>
+
+
+
+<div class="container" id="yes" >
+
+</div>
+
+<div class="container">
+
+    
+    <!-- Den stora kolumnen till höger om menyn där innehållet finns -->
+            </div>
+
+            <div id="parallax">
+
+             <div id="box1111">
+                <h2 id="parallaxxxx">PlayerUnknown's Battlegrounds (PUBG) är ett multiplayer online battle royale videospel som utvecklats och publicerades av Bluehole. Det är mitt favoritspel just nu och jag har spelat det i ungefär 3 månader</h2>
+            </div>
+            <div id="box2222">
+                <h1 id="parallaxxxx"> Mitt nadra favorit spel, Battlefield 1 är en förstapersonsskjutare utvecklat av Digital Illusions CE. Batlefield 1 är utgivet av Electronic Arts den 21 oktober 2016 till Microsoft Windows, Playstation 4 och Xbox One.[1] Trots sitt namn är det den fjortonde delen i Battlefield-serien. </h1>
+            </div>
+            <div id="box3333">
+                <h1 id="parallaxxxx">Counter-Strike: Global Offensive (förkortat CS:GO) är ett förstapersonsskjutarespel utvecklat av Valve Corporation och Hidden Path Entertainment och utgivet av Valve 2012. Spelet är det fjärde i Counter-Strikeserien. Jag har spelat CS.GO väldigt länge och jag gillar det fortfarande lika mycket.<h1>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+            </body>
+            </html>

@@ -1,0 +1,48 @@
+
+
+
+
+body {
+	font-family: "Arial";
+}
+
+
+
+a {
+	
+	
+	border-radius: 5px;
+	transition: all 1s;
+	text-decoration: none;
+}
+
+a:hover {
+	
+	border-radius: 0;
+	
+	color:orange;
+}
+
+.box {
+	width: 50 %;
+	height: 30%;
+	box-shadow: 5px 5px 10px #555;
+}
+
+button {
+	background-color: #ee5555;
+	padding: 10px;
+	color: white;
+	border:none;
+	font-family: "Arial";
+	border-radius: 25px;
+	font-size: 20px;
+	transition: all 0.5s;
+
+
+}
+
+button:hover {
+	box-shadow: 0px 0px 10px #fa5;
+
+}

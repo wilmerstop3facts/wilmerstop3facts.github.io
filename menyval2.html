@@ -1,0 +1,143 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Top 3 facts</title>
+    <link rel="icon" type="image/png" href="bilder/google.png">
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body id="shit">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }    
+        #box111{
+            height: 100vh;
+            width: 100%;
+            background-image: url(bilder/obama.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+
+
+        #box222 {
+            height: 100vh;
+            width: 100%;
+            background-image: url(bilder/funeral.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+
+        #box333 {
+            height: 100vh;
+            width: 100%;
+            background-image: url(bilder/happy.jpeg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+
+        #parallaxxx {
+            font-family: arial black;
+            font-size: 50px;
+            color:white;
+            margin: 0px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+
+    </style>
+    <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+    <nav class="nav navbar-inverse navbar-fixed-top">
+        <div class="container">
+
+        </div>
+        <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+        <ul class="nav navbar-nav">
+            <li><a href="menyval1.html">Top 3 youtubers</a></li>
+            <li><a href="menyval2.html">Top 3 funfacts</a></li>
+            <li><a href="menyval3.html">Top 3 spel</a></li>
+
+        </ul>
+    </div>
+</nav>
+
+
+<!-- Den lilla kolumnen till vänster där menyn finns -->
+
+
+<!-- Den stora kolumnen till höger om menyn där innehållet finns -->
+
+
+
+</div>
+
+<div id="parallax">
+   <div id="box111">
+
+    <h2 id="parallaxxx">"Om du slår ditt huvud mot väggen i en timme, bränner du 150 kalorier"</h2>
+</div>
+<div class="scroll-box2">
+<p id="parall2">Visste du att? "Facebook mental disorder" är en mental sjukdom som identifierats av psykologer</p>
+</div>
+<div id="box222">
+    <h1 id="parallaxxx">"Mannen som skapade frisbeen blev kremerad och gjord till en frisbee när han dog!"</h1>
+</div>
+<div class="scroll-box2">
+   <p id="parall2">Om du vill läsa om mer funfacts klicka <a href="https://www.thefactsite.com/2011/07/top-100-random-funny-facts.html">här</a></p>
+</div>
+<div id="box333">
+    <h1 id="parallaxxx">"Cherofobia är rädslan för att ha kul"<h1>
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
